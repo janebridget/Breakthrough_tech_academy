@@ -1,3 +1,10 @@
+/*<!-- 
+Name: [NAKAZZI JANEBRIDGET]
+Reg No: [23/U/BIT/1093/K/EVE]
+Student No: [2023001093]
+Year of Study: [YEAR2 SEM2]
+Course Name: SCRIPTING LANGUAGE
+-->*/
 const testimonials = [
     "“This academy helped me land my dream job!” – Student A",
     "“The courses are easy to follow and well-explained!” – Student B",
