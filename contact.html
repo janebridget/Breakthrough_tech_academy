@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | BreakThrough Tech Academy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">BreakThrough Tech</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="dark-mode-toggle">🌙</button>
+  </header>
+
+  <!-- Contact Form -->
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="subject" placeholder="Subject" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="success-msg" style="display: none; color: green;">✅ Message sent successfully!</p>
+    </form>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/256712345678" class="whatsapp-button" target="_blank">💬 Chat on WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2023-2025 BreakThrough Tech Academy</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

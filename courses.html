@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses | BreakThrough Tech Academy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">BreakThrough Tech</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="dark-mode-toggle">🌙</button>
+  </header>
+
+  <!-- Courses Section -->
+  <section class="courses-page">
+    <h1>Our Courses</h1>
+
+    <input type="text" id="search-input" placeholder="Search courses..." />
+
+    <div class="courses-grid" id="courses-container">
+      <!-- Courses will be filtered dynamically -->
+      <div class="course-card">
+        <img src="images/webdevl.jpg" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript, and build responsive websites.</p>
+        <p><strong>Duration:</strong> 12 Weeks</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="images/datasci.jpg" alt="Data Science Basics" />
+        <h3>Data Science Basics</h3>
+        <p>Understand data analysis, Python, and visualization techniques.</p>
+        <p><strong>Duration:</strong> 10 Weeks</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="images/cybersecurity.jpg" alt="Intro to Cybersecurity" />
+        <h3>Intro to Cybersecurity</h3>
+        <p>Learn ethical hacking, digital safety, and protecting networks.</p>
+        <p><strong>Duration:</strong> 13 Weeks</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <img src="images/uiux.jpg" alt="UI/UX Design" />
+        <h3>UI/UX Design</h3>
+        <p>Design beautiful and user-friendly interfaces with Figma.</p>
+        <p><strong>Duration:</strong> 14 Weeks</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 BreakThrough Tech Academy</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
